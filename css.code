@@ -1,0 +1,78 @@
+body{
+  background-color: aquamarine;
+}
+
+div{
+  font-size: 50px;
+  text-align: center;
+  font-weight: 900;
+}
+
+nav{
+  line-height: 100px;
+  font-weight: 100;
+}
+
+@media (min-width:0px){
+  body{
+    background-color: aquamarine;
+  }
+  div::before{
+    content: "This is a Media Query demo page."
+  }
+  .s1 , .s2 , .s3 , .s4{
+    display: none;
+  }
+}
+
+@media (max-width:1440px){
+  body{
+    background-color: green;
+  }
+  .s1{
+    display: block;
+    font-size: 20px;
+  }
+  .s2 , .s3 , .s4{
+    display: none;
+  }
+}
+
+@media (max-width:1024px){
+  body{
+    background-color:darkgoldenrod;
+  }
+  .s2{
+    display: block;
+    font-size: 26px;
+  }
+  .s1 , .s3 , .s4{
+    display: none;
+  }
+}
+
+@media (max-width:768px){
+  body{
+    background-color:deepskyblue;
+  }
+  .s3{
+    display: block;
+    font-size: 30px;
+  }
+  .s1 , .s2 , .s4{
+    display: none;
+  }
+}
+
+@media (max-width:425px) {
+  body{
+    background-color:brown;
+  }
+  .s4{
+    display: block;
+    font-size: 42px;
+  }
+  .s1 , .s2 , .s3{
+    display: none;
+  }
+}
