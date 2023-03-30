@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="screen">
+      <nav class="s1">Screen size : 1440px</nav>
+      <nav class="s2">Screen size : 1024px</nav>
+      <nav class="s3">Screen size : 768px</nav>
+      <nav class="s4">Screen size : 425px</nav>
+    </div>
+  </body>
+</html>
